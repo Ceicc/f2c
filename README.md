@@ -24,16 +24,22 @@ $ make uninstall
 
 By default the binary will be copied into `$HOME/.local/bin` directory with the name `f2c`. You can change it by altering the following make variables:
 
-#### `PREFIX`
-	- default: `$HOME/.local`
+- `PREFIX`
+
+	default: `$HOME/.local`
+
 	Install location.
 
-#### `CC`
-	- default: `gcc`
+- `CC`
+
+	default: `gcc`
+
 	Compiler command.
 
-#### `CC_FLAGS`
-	- default: `-Wall -Werror`
+- `CC_FLAGS`
+
+	default: `-Wall -Werror`
+
 	Compiler flags.
 
 Usage
